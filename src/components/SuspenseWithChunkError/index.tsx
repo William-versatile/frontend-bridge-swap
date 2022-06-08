@@ -4,6 +4,21 @@ interface State {
   hasError: boolean
 }
 
+// @ts-ignore
+declare global {
+  // tslint:disable-next-line
+  interface Window {
+    web3: any;
+    ethereum: any;
+    Web3Modal: any;
+    Box: any;
+    box: any;
+    space: any;
+    isBitKeep: any;
+    bitkeep: any;
+  }
+}
+
 class SuspenseWithChunkError extends React.Component<SuspenseProps, State> {
   constructor(props) {
     super(props)

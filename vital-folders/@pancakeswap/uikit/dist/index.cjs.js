@@ -3908,6 +3908,27 @@ var Panel = function (props) {
 };
 var templateObject_1$6;
 
+// var Icon$hp = function (props) {
+//     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
+//         React__default['default'].createElement("g", { transform: "translate(0.000000,330.000000) scale(0.100000,-0.100000)", fill: "#000000", stroke: "none" },
+//             React__default['default'].createElement("path", { d: "M223,156 C258.677009,156 288.759519,132.047103 298.04326,99.3455779 C299.969173,92.5616409 301,85.4012017 301,78 C301,34.9217895 266.07821,0 223,0 C179.92179,0 145,34.9217895 145,78 C145,121.07821 179.92179,156 223,156 Z", fill: "#006EFF" }),
+//             React__default['default'].createElement("path", { d: "M189.58974,44 C215.644564,44 234.558412,44 246.331283,44 C265.680554,44 273.152462,52.8706055 273.879929,63.6242864 C275.877668,89.6802133 252.491327,97.2132541 237.650634,97.2132541 C234.748534,97.2132541 231.225865,97.2132541 227.082627,97.2132541 L222.247669,118 L200.993634,118 L205.941082,97.2132541 L174,97.2132541 L178.288521,81 C217.914542,81 238.832985,81 241.043852,81 C247.234161,81.1457606 252.99216,77.1674899 252.99216,70.7196937 C252.934453,65.7972929 248.954364,60.9683509 242.36536,61.0769231 C237.567745,61.0769231 230.939744,64.3799485 229.657931,78.1112529 C229.61977,78.2582381 223.288585,78.2582381 210.664377,78.1112529 L214.429706,61.0921114 L185.022359,61.0921114 L189.58974,44 Z", fill: "#FFFFFF" }),
+//         )
+//     ));
+// };
+
+// var Icon$hp = function (props) {
+//     return (React.createElement(Svg, __assign({ width: "276.000000pt", height: "330.000000pt", viewBox: "0 0 276.000000 330.000000", preserveAspectRatio: "xMidYMid meet" }, props),
+//         React.createElement("g", { transform: "translate(0.000000,330.000000) scale(0.100000,-0.100000)", fill: "#000000", stroke: "none" },
+//             React.createElement("path", { d: "M3 2380 c3 -890 4 -907 25 -1002 61 -268 174 -484 351 -670 216 -228\r\n    486 -369 796 -418 103 -16 315 -14 430 5 183 29 420 125 557 225 l53 39 267\r\n    -267 268 -267 1 815 c1 986 2 924 -17 1040 -46 279 -180 537 -384 740 -187\r\n    187 -388 302 -639 365 -375 94 -777 25 -1095 -189 -38 -25 -71 -46 -75 -46 -3\r\n    0 -126 120 -274 268 l-268 267 4 -905z m1484 279 c415 -46 746 -325 870 -734\r\n    l27 -90 4 -470 3 -470 -796 795 c-795 795 -795 795 -772 812 44 34 185 98 273\r\n    123 147 42 246 50 391 34z m460 -1844 c-6 -17 -129 -83 -213 -114 -121 -44\r\n    -223 -62 -354 -62 -517 0 -937 369 -1009 885 -6 45 -11 249 -11 483 l0 406\r\n    795 -794 c437 -436 794 -798 792 -804z" }))));
+// };
+
+var Icon$hp = function (props) {
+    return (React__default['default'].createElement(Svg, __assign({ width: "276.000000pt", height: "330.000000pt", viewBox: "0 0 276.000000 330.000000", preserveAspectRatio: "xMidYMid meet" }, props),
+        React__default['default'].createElement("g", { transform: "translate(0.000000,330.000000) scale(0.100000,-0.100000)", fill: "#000000", stroke: "none" },
+            React__default['default'].createElement("path", { d: "M3 2380 c3 -890 4 -907 25 -1002 61 -268 174 -484 351 -670 216 -228\r\n    486 -369 796 -418 103 -16 315 -14 430 5 183 29 420 125 557 225 l53 39 267\r\n    -267 268 -267 1 815 c1 986 2 924 -17 1040 -46 279 -180 537 -384 740 -187\r\n    187 -388 302 -639 365 -375 94 -777 25 -1095 -189 -38 -25 -71 -46 -75 -46 -3\r\n    0 -126 120 -274 268 l-268 267 4 -905z m1484 279 c415 -46 746 -325 870 -734\r\n    l27 -90 4 -470 3 -470 -796 795 c-795 795 -795 795 -772 812 44 34 185 98 273\r\n    123 147 42 246 50 391 34z m460 -1844 c-6 -17 -129 -83 -213 -114 -121 -44\r\n    -223 -62 -354 -62 -517 0 -937 369 -1009 885 -6 45 -11 249 -11 483 l0 406\r\n    795 -794 c437 -436 794 -798 792 -804z" }))));
+};
+
 var Icon$7 = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
         React__default['default'].createElement("circle", { cx: "48", cy: "48", r: "48", fill: "white" }),
@@ -4008,7 +4029,7 @@ exports.ConnectorNames = void 0;
 
 var connectors = [
     {
-        title: "OntoWallet",
+        title: "ONTO Wallet",
         icon: Icon,
         connectorId: exports.ConnectorNames.Injected,
     },
@@ -4045,6 +4066,11 @@ var connectors = [
     {
         title: "SafePal Wallet",
         icon: Icon$1,
+        connectorId: exports.ConnectorNames.Injected,
+    },
+    {
+        title: "HyperPay",
+        icon: Icon$hp,
         connectorId: exports.ConnectorNames.Injected,
     },
 ];
